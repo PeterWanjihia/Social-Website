@@ -270,6 +270,8 @@ main .container .left .profile{
 }
 
 /* ==========================MIDDLE============================= */
+
+/* ==============STORIES=============== */
 .middle .stories{
     display: flex;
     justify-content: space-between;
@@ -341,3 +343,23 @@ main .container .left .profile{
     background-size: cover;
 }
 
+/* ==========CREATE POST========== */
+.middle .create-post{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top: 1rem;    
+    padding:0.4rem var(--card-padding);
+    background:var(--color-white);
+    border-radius:var(--border-radius);
+}
+
+.middle .create-post input[type=text]{
+    justify-self:start;
+    width: 100%;
+    padding-left: 1rem;
+    background: transparent;
+    margin-right: 1rem;
+    color: var(--color-dark);
+}
