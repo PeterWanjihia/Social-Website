@@ -474,6 +474,9 @@ main .container .right{
     margin-bottom:1rem;
     align-items:start;
 }
+.right  .messages-requests{
+    color: var(--color-primary);
+}
 
 .right .messages .message:last-child{
     margin: 0;
@@ -502,3 +505,4 @@ main .container .right{
     right: 0;
     bottom: 0;
 }
+
