@@ -629,3 +629,48 @@ main .container .right{
 }
 
 /* ========Background Selection======== */
+.customize-theme .background{
+    margin-top: 2rem;
+}
+
+.customize-theme .choose-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.customize-theme .choose-bg > div{
+    display: flex;
+    align-items: center;
+    padding: var(--card-padding);
+    width: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius:0.4rem;
+    cursor: pointer;
+    gap:1rem;
+}
+
+.customize-theme .choose-bg > div.active{
+    border:2px solid var(--color-primary);
+}
+
+.customize-theme .choose-bg .bg-1{
+    background: white;
+    color:black;
+}
+.customize-theme .choose-bg .bg-2{
+    background: rgb(125, 101, 204);
+    color:white;
+}
+.customize-theme .choose-bg .bg-3{
+    background: hsl(252,30%,10%);
+    color:white;
+}
+.customize-theme .choose-bg >div span{
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+    border: 2px solid var(--color-gray);
+}
